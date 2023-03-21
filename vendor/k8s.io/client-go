@@ -1,1 +1,6 @@
-../../staging/src/k8s.io/client-go
+// pkg/example/some_code.go
+package example
+
+import (
+  "k8s.io/client-go/dynamic" // resolves to staging/src/k8s.io/client-go/dynamic
+)
